@@ -1,0 +1,60 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+    <ion-list>
+      <ion-item>
+        <form ng-submit="done()">
+        <div class="list" >
+         <label class="item item-input" >
+         Name:
+         <input type="text" placeholder="Please input your name" ng-model="create.name">
+	     </label>
+         <label class="item item-input" >
+         Gender:
+         <input type="text" placeholder="Please input your gender" ng-model="create.gender">
+         </label>
+          <label class="item item-input" >
+         Mobile:
+         <input type="text" placeholder="Please input your mobile" ng-model="create.mobile">
+         </label>
+          <label class="item item-input" >
+         Age:
+         <input type="text" placeholder="Please input your age" ng-model="create.age">
+         </label>
+          <label class="item item-input" >
+         Email:
+         <input type="text" placeholder="Please input your email" ng-model="create.email">
+         </label>
+          <label class="item item-input" >
+         Address:
+         <input type="text" placeholder="Please input your address" ng-model="create.address">
+         </label>
+          <label class="item item-input" >
+         License:
+         <input type="text" placeholder="Please input your driver license" ng-model="create.driverLicense">
+         </label>
+          <label class="item item-input" >
+         Brand:
+         <input type="text" placeholder="Please input your brand" ng-model="create.brand">
+         </label>
+          <label class="item item-input" >
+         Series:
+         <input type="text" placeholder="Please input your series" ng-model="create.series">
+         </label>
+          <label class="item item-input" >
+         Model:
+         <input type="text" placeholder="Please input your model" ng-model="create.model">
+         </label>
+          <label class="item item-input" >
+         <input type="checkbox">
+         <span>Sign</span>
+         <a href="http://42.159.118.142:8080/app/agreement">test drive agreement</a>
+         </label>
+  		  <label class="item">
+            <button class="button button-block button-positive" type="submit" >Done</button>
+          </label>
+        </div>
+        </form>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

@@ -1,0 +1,5 @@
+projectKey=bmw-sfm-leads-fe
+serverUrl=http://sonar-bmw-test.mcon-group.com
+dashboardUrl=http://sonar-bmw-test.mcon-group.com/dashboard/index/bmw-sfm-leads-fe
+ceTaskId=AVwf6oW9EunAg6KuO6HM
+ceTaskUrl=http://sonar-bmw-test.mcon-group.com/api/ce/task?id=AVwf6oW9EunAg6KuO6HM

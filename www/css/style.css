@@ -1,0 +1,15 @@
+/* Empty. Add your own CSS if you like */
+#myDrive, #newDrive{
+	border: 2px, solid, black;
+}
+#list {
+	float: right;
+	border: 2px, solid, black;
+}
+#agreement{
+	border: 2px, solid, black;
+	width: 1000px;
+	height: 600px;
+}
+
+

@@ -1,0 +1,41 @@
+<ion-view view-title="Playlists">
+  <ion-content>
+
+      <ion-list>
+
+          <ion-item >
+            <a href="###" id="myDrive">My test drive</a>
+            <a href="#/app/create" id="newDrive">Create new test drive</a>
+          </ion-item>
+
+          <ion-item ng-repeat="res in response">
+
+
+           <div class="list" id="list">
+            <label class="item item-input">
+              <span class="input-label">ID</span>
+              <input type="text" ng-model="res.id" ng-click="showIdInfo(res.id)">
+            </label>
+
+            <label class="item item-input">
+              <span class="input-label">Name</span>
+              <input type="text" ng-model="res.name">
+            </label>
+
+             <label class="item item-input">
+              <span class="input-label">Model</span>
+              <input type="text" ng-model="res.model">
+            </label>
+
+             <label class="item item-input">
+              <span class="input-label">Mobile</span>
+              <input type="text" ng-model="res.mobile">
+            </label>
+          </div>
+
+      </ion-item>
+    </ion-list>
+
+
+  </ion-content>
+</ion-view>
